@@ -12,7 +12,7 @@ public class MessagingApiAppApplication {
 		System.out.println("Hi oracle!!");
 	}
 	
-	@GetMapping("day")
+	@GetMapping("/")
 	public String getDay(){
 		return "Todya is friday";
 	}
